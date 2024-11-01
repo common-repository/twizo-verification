@@ -1,0 +1,17 @@
+/* The alert message box */
+.alert {
+    padding: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+
+/* The alert message box */
+.success {
+    padding: 10px;
+    background-color: #389b43; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    margin-top:15px;
+}

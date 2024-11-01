@@ -1,0 +1,155 @@
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+.button-twizo{
+    border:none;
+    padding: 5px 10px;
+    color: #fefcfc;
+    background-color: #FF952E;
+    font-size: 18px;
+    box-shadow: 0 3px 0 #f67c00;
+}
+.button-twizo:hover{
+    background-color: #FF9F3E;
+    cursor: pointer;
+}
+
+.float-left{
+    float:left;
+}
+
+.link{
+    color: #FF952E;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #ed4325;
+}
+
+.api-input{
+    width: 100%;
+    padding:10px;
+}
+
+#header {
+    height: 100px;
+    width:110%;
+    position: fixed;
+    margin-left: -25px;
+    color: #636161;
+    background-color: rgb(249, 249, 249);
+    -webkit-box-shadow: 0 2px 6px gray;
+    box-shadow: 0 2px 6px gray;
+    z-index: 10;
+}
+
+#header-logo{
+    float: left;
+}
+
+#header-text{
+    float:left;
+    position:relative;
+    left: 20px;
+    font-size: 30px;
+}
+
+#page-title{
+    position: relative;
+    top:110px;
+    text-align: center;
+    margin-left:-25px;
+    color: #222222;
+    font-size: 24px;
+}
+
+#wpfooter {
+    position: relative;
+    margin-top: 10px;
+}
+
+#box{
+    padding: 20px 20px 40px 20px;
+    position: relative;
+    top:130px;
+    width:70%;
+    min-height: 500px;
+    left: 15%;
+    margin-left:-25px;
+    margin-bottom: 50px;
+    color: #636161;
+    background-color: rgb(249, 249, 249);
+    -webkit-box-shadow: 0 0 8px gray;
+    box-shadow: 0 0 8px gray;
+    overflow:hidden;
+
+}
+
+#box h2 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The alert message box */
+.success {
+    padding: 20px;
+    background-color: #389b43; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+
+
+.container{
+    width: 100%;
+    clear:both;
+}
+
+.left-settings{
+    float:left;
+    width:45%;
+}
+
+.right-settings{
+    float:right;
+    left:10%;
+    width:45%;
+}

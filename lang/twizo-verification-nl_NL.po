@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twizo Verification\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-02 01:43+0000\n"
+"PO-Revision-Date: 2018-01-02 08:01+0000\n"
+"Last-Translator: twizo <sven.ordelman@silverstreet.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl-NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/controllers/Controller.php:88 
+#: includes/controllers/Controller.php:123
+msgid ""
+"Something has gone wrong while creating a sessionToken, please try again or "
+"contact an administrator."
+msgstr ""
+"Er ging iets mis toen met het creëren van een sessie token, probeer het "
+"opnieuw of neem contact op met een administrator."
+
+#: includes/controllers/CustomerSettingsController.php:130
+msgid ""
+"Now the codes are regenerated, note that your old codes are not useable "
+"anymore. The new backup codes are:<br>"
+msgstr ""
+"Nu de codes zijn gegenereerd, zijn de oude backup codes niet meer bruikbaar. "
+"De nieuwe backup codes zijn:<br>"
+
+#: includes/controllers/AdminPageController.php:136
+msgid "The default preferred type is updated."
+msgstr "Het standaard gewenste type is geüdated."
+
+#: includes/controllers/AdminPageController.php:153
+msgid "The logo image is updated."
+msgstr "Uw logo is geüdated"
+
+#: includes/templates/admin-pages/welcome-setup-page.php:10
+msgid ""
+"Since this is the first time you have installed Twizo Verification on this "
+"Wordpress installation, we will help you\n"
+"install Twizo within a few steps."
+msgstr ""
+"Omdat dit de eerste keer is dat u Twizo Verification installeert op deze "
+"Wordpress installatie, helpen wij u Twizo te installeren in een paar simpele "
+"stappen."
+
+#: includes/templates/admin-pages/setup-step-2-api-key.php:13
+msgid "For installing Twizo for Woocommerce, can we have your API key?"
+msgstr "Voor het installeren van Twizo voor WooCommerce, mogen wij uw API key?"
+
+#: includes/templates/customer-pages/customer-header.php:14
+msgid ""
+"Welcome to your two factor authorization settings. By enabling the two "
+"factor authorization, a new layer of security\n"
+"    will be added to your account. When logging in you will be prompted with "
+"an one time password, send by SMS or another verification method\n"
+"    of your choice."
+msgstr ""
+"Welkom bij uw twee factor authenticatie instellingen. Door twee factor "
+"authenticatie the activeren voegt u een nieuwe laag van veiligheid toe aan "
+"uw account. Wanneer u inlogt wordt u gevraagd om een eenmalig te gebruiken "
+"wachtwoord. Deze verkrijgt u door de middel van u gekozen authenticatie "
+"methode."
+
+#: includes/templates/customer-pages/customer-header.php:20
+msgid "two factor authentication"
+msgstr "Twee factor authenticatie"
+
+#: includes/templates/customer-pages/customer-settings-page.php:32
+msgid ""
+"When you lose your authentication device, or sim-card, you can still login "
+"with the backup codes. You can have up to 10 backup codes at one moment.\n"
+"When you use one, the used backup code will be de-activated. When you have "
+"no backup codes left you should regenerate your backup codes. You can "
+"regenerate\n"
+"your backup codes at any time, the old ones will become unusable."
+msgstr ""
+"Wanneer u uw authenticatie apparaat of sim kaart verliest, kan u nog steeds "
+"inloggen met de backup codes. Op ieder moment kan je tot 10 backup codes "
+"hebben. Wanneer je er één gebruikt, wordt de gebruikte backup code "
+"gedeactiveerd. Wanneer je geen backup codes meer hebt kun je ze hier opnieuw "
+"genereren. Je kan op ieder moment nieuwe backup codes genereren. De oude "
+"worden dan onbruikbaar."
+
+#: includes/twizo-customer.php:48
+msgid "Two factor authentication"
+msgstr "Twee factor authenticatie"
+
+#: includes/TwizoLogin.php:113 
+#: includes/controllers/CustomerSettingsController.php:172
+msgid "Error sessionTokens did not match"
+msgstr "Fout, sessie tokens waren niet hetzelfde "
+
+#: includes/controllers/CustomerSettingsController.php:206
+msgid "Error occurred, could not create record for user"
+msgstr ""
+"Er is een fout voorgekomen, er kon geen rij aangorden gemaakt voor de klant "
+"in de database."
+
+#: includes/controllers/CustomerSettingsController.php:212
+msgid "Two factor authorization is set-up."
+msgstr "Twee factor authenticatie is geïnstalleerd."
+
+#: includes/controllers/AdminPageController.php:49
+msgid "Twizo - Settings"
+msgstr "Twizo - Instellingen"
+
+#: includes/controllers/AdminPageController.php:51
+msgid "Twizo - Setup"
+msgstr "Twizo - Installatie"
+
+#: includes/controllers/AdminPageController.php:61 
+#: includes/templates/admin-pages/admin-settings-page-body.php:26 
+#: includes/templates/admin-pages/admin-settings-page-body.php:32 
+#: includes/templates/admin-pages/admin-settings-page-body.php:56 
+#: includes/templates/customer-pages/customer-settings-page.php:54
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/controllers/AdminPageController.php:66
+msgid "Verify API key"
+msgstr "Verifieer API sleutel"
+
+#: includes/controllers/AdminPageController.php:100
+msgid "The host is updated."
+msgstr "De host is geüpdate."
+
+#: includes/controllers/AdminPageController.php:104
+msgid "Next step"
+msgstr "Volgende stap"
+
+#: includes/controllers/AdminPageController.php:105
+msgid "The host have been set, proceed to the next step."
+msgstr "De host is gezet, ga naar de volgende stap."
+
+#: includes/controllers/AdminPageController.php:121
+msgid "API-key is verified, and updated."
+msgstr "API sleutel is geverifieerd en geüpdate."
+
+#: includes/controllers/AdminPageController.php:123 
+#: includes/templates/customer-pages/customer-setup-step-2.php:24
+msgid "Finish"
+msgstr "Einde"
+
+#: includes/controllers/AdminPageController.php:124
+msgid "API-key is verified, the set-up has been finished"
+msgstr "API sleutel is geverifieerd, de installatie is beëindigd."
+
+#: includes/controllers/AdminPageController.php:129
+msgid "API key not updated"
+msgstr "API sleutel is niet geüpdate."
+
+#: includes/controllers/AdminPageController.php:147
+msgid "The sender is updated."
+msgstr "De zender is geüpdated. "
+
+#: includes/templates/admin-pages/image-logo-settings.php:11
+msgid "Set image logo"
+msgstr "Zet een logo afbeelding"
+
+#: includes/templates/admin-pages/image-logo-settings.php:16
+msgid "Upload image"
+msgstr "Upload foto"
+
+#: includes/templates/admin-pages/image-logo-settings.php:18
+msgid ""
+"Select or Upload an image by clicking on 'Insert into post' in the file "
+"uploader. Recommended size is 200px * 90px."
+msgstr ""
+"Selecteer of upload een afbeelding door op 'Toevoegen aan bericht' te "
+"klikken in de file uploader. Aanbevolen grootte is 200px * 90px."
+
+#: includes/templates/admin-pages/admin-settings-page-body.php:16
+msgid "Host"
+msgstr "Host"
+
+#: includes/templates/admin-pages/admin-settings-page-body.php:29
+msgid "API key"
+msgstr "API sleutel"
+
+#: includes/templates/admin-pages/admin-settings-page-body.php:31 
+#: includes/templates/admin-pages/setup-step-2-api-key.php:24
+msgid "API KEY"
+msgstr "API sleutel"
+
+#: includes/templates/admin-pages/admin-settings-page-body.php:35
+msgid "Preferred Authentication type"
+msgstr "Gewenst authenticatie type"
+
+#: includes/templates/admin-pages/admin-settings-page-body.php:51 
+#: includes/templates/admin-pages/admin-settings-page-body.php:55
+msgid "Sender"
+msgstr "Zender"
+
+#: includes/templates/admin-pages/admin-settings-page-body.php:52
+msgid "A sender is the name a customer will see when he receives the message."
+msgstr "Een zender is de naam de klant ziet als hij een bericht ontvangt."
+
+#: includes/templates/admin-pages/welcome-setup-page.php:9
+msgid "Welcome to Twizo - two factor authentication for WooCommerce."
+msgstr "Welkom bij Twizo - twee factor authenticatie voor WooCommerce."
+
+#: includes/templates/admin-pages/welcome-setup-page.php:14
+msgid "Do you already have an account?"
+msgstr "Heeft u al een account?"
+
+#: includes/templates/admin-pages/welcome-setup-page.php:16
+msgid "No, create one."
+msgstr "Nee, creëer er één."
+
+#: includes/templates/admin-pages/welcome-setup-page.php:20
+msgid "Yes, start the installation."
+msgstr "Ja, start de installatie."
+
+#: includes/templates/admin-pages/setup-step-1-host.php:14
+msgid "Step (1/2) - Host"
+msgstr "Stap (1/2) - Host"
+
+#: includes/templates/admin-pages/setup-step-1-host.php:15
+msgid ""
+"To provide the best experience to your customers, please select the host "
+"closest to your location from the list below."
+msgstr ""
+"Om de beste ervaring voor uw klanten te leveren, selecteer de host het "
+"dichts bij uw locatie."
+
+#: includes/templates/admin-pages/setup-step-2-api-key.php:12
+msgid "Step (2/2) - API key"
+msgstr "Stap (2/2) - API sleutel"
+
+#: includes/templates/admin-pages/setup-step-2-api-key.php:14
+msgid ""
+"If you don't know where to find your api key, you can find it in your "
+"applications"
+msgstr ""
+"Als je niet weet waar je je API sleutel kan vinden, je kan het vinden in je "
+"applicaties."
+
+#: includes/templates/admin-pages/setup-step-2-api-key.php:16
+msgid "-> My Applications"
+msgstr "-> Mijn applicaties"
+
+#: includes/templates/customer-pages/customer-setup-step-2.php:10
+msgid "First time set-up (2/2)"
+msgstr "Eerste installatie (2/2)"
+
+#: includes/templates/customer-pages/customer-setup-step-2.php:13
+msgid ""
+"Two Factor Authorization is now enabled. Below are your backup codes. Please "
+"store them in a save location. If you lose them you can regenerate them\n"
+"    at this page. Backup codes are used to login when you lose your "
+"authorization device."
+msgstr ""
+"Twee factor authenticatie staat nu aan. Hier zijn uw reserve codes. Sla ze "
+"op in een veilige plek. Als je ze verliest kan je ze opnieuw genereren op "
+"deze pagina. Reserve codes worden gebruikt om in te loggen wanneer u uw "
+"authenticatie apparaat hebt verloren."
+
+#: includes/templates/customer-pages/customer-setup-step-2.php:19
+msgid ""
+"By going on to the next step, please make sure you have saved the backup "
+"codes in a save location."
+msgstr ""
+"Door naar de volgende stap te gaan, maakt u zeker dat u de reserve codes "
+"hebt opgeslagen op een veilige plek."
+
+#: includes/templates/customer-pages/customer-setup-step-1.php:10
+msgid "First time set-up (1/2)"
+msgstr "Eerste installatie (1/2)"
+
+#: includes/templates/customer-pages/customer-setup-step-1.php:11
+msgid ""
+"In the first step of the setup, we need to verify your phone number for the "
+"two factor authorization. \n"
+"    So please enter your phone number below, and click the button:"
+msgstr ""
+"In de eerste stap van de installatie, moeten wij uw telefoon nummer hebben "
+"voor de twee factor authenticatie.\n"
+"Vul alstublieft uw telefoon nummer in en click op de knop:"
+
+#: includes/templates/customer-pages/customer-setup-step-1.php:19 
+#: includes/templates/customer-pages/customer-settings-page.php:14 
+#: includes/templates/customer-pages/customer-settings-page.php:25
+msgid "Phone number"
+msgstr "Telefoon nummer"
+
+#: includes/templates/customer-pages/customer-setup-step-1.php:24 
+#: includes/templates/customer-pages/customer-settings-page.php:27
+msgid "Verify"
+msgstr "Verifiëren"
+
+#: includes/templates/customer-pages/customer-header.php:13
+msgid "Two factor authorization"
+msgstr "Twee factor authenticate"
+
+#: includes/templates/customer-pages/customer-settings-page.php:16
+msgid ""
+"For two factor authentication, your phone number is needed. You can change "
+"it below. If you change it a pop-up will open, which will help you\n"
+"verify your phone number."
+msgstr ""
+"Voor twee factor authenticatie, is uw telefoon nummer nodig. Je kan het hier "
+"instellen. Als u het wijzigt zal er een scherm verschijnen die u helpt uw "
+"telefoon nummer te verifiëren. "
+
+#: includes/templates/customer-pages/customer-settings-page.php:18
+msgid "Current phone number:"
+msgstr "Ingestelde telefoon nummer"
+
+#: includes/templates/customer-pages/customer-settings-page.php:30
+msgid "Backup codes"
+msgstr "Reserve codes"
+
+#: includes/templates/customer-pages/customer-settings-page.php:36
+msgid "Backup codes left:"
+msgstr "Aantal ongebruikte reserve codes:"
+
+#: includes/templates/customer-pages/customer-settings-page.php:39
+msgid "Regenerate backup codes"
+msgstr "Genereer backup codes"
+
+#: includes/templates/customer-pages/customer-settings-page.php:42
+msgid "Preferred type"
+msgstr "Gewenste authenticatie type"
+
+#: includes/templates/customer-pages/customer-settings-page.php:43
+msgid ""
+"The two factor authentication has multiple verification options, you can set "
+"your preferred below or use the standard settings.\n"
+msgstr ""
+"De twee factor authenticatie  heeft meerdere opties om je te verifiëren. Je "
+"kan uw gewenste optie hier zetten. "
+
+#: includes/templates/customer-pages/customer-settings-page.php:45
+msgid "Current preferred type:"
+msgstr "Momentele authenticatie methode:"
+
+#: includes/templates/customer-pages/customer-settings-page.php:50
+msgid "By: "
+msgstr "Bij:"
+
+#. Name of the plugin
+msgid "Twizo Verification"
+msgstr "Twizo Verification"
+
+#. Description of the plugin
+msgid "Plugin for 2 factor authorization in WooCommerce"
+msgstr "Plugin voor twee factor authenticatie in WooCommerce"
+
+#. URI of the plugin
+msgid "http://www.twizo.com"
+msgstr "http://www.twizo.com"
+
+#. Author of the plugin
+msgid "S. Ordelman"
+msgstr "S. Ordelman"
